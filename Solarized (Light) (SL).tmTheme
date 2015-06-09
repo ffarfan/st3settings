@@ -1860,6 +1860,17 @@
 				<string>#DC322F</string>
 			</dict>
 		</dict>
+		<dict>
+		    <key>name</key>
+		    <string>JSON String</string>
+		    <key>scope</key>
+		    <string>meta.structure.dictionary.json string.quoted.double.json</string>
+		    <key>settings</key>
+		    <dict>
+		        <key>foreground</key>
+		        <string>#269186</string>
+		    </dict>
+		</dict>
 	<dict>
             <key>name</key>
             <string>SublimeLinter Warning</string>
