@@ -50,7 +50,8 @@
                 "jobs": "1",
                 "max-complexity": -1,
                 "max-line-length": 120,
-                "select": ""
+                "select": "",
+                "show-code": false
             },
             "jshint": {
                 "@disable": false,
