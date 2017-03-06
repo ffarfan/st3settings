@@ -3,11 +3,11 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"LineEndings"
 	],
 	"installed_packages":
 	[
 		"Autotools",
+		"Case Conversion",
 		"Git",
 		"GitGutter",
 		"GotoDocumentation",
@@ -15,10 +15,10 @@
 		"Increment Selection",
 		"JSHint",
 		"JSHint Gutter",
-		"LineEndings",
 		"Package Control",
 		"PackageDev",
 		"Pretty JSON",
+		"Python PEP8 Autoformat",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
 		"SublimeLinter-contrib-clang",

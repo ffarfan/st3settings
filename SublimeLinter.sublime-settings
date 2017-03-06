@@ -42,6 +42,7 @@
                 "args": [],
                 "builtins": "_,N_",
                 "excludes": [],
+                "executable": "",
                 "ignore": [
                     "E127",
                     "E128",
@@ -52,6 +53,11 @@
                 "max-line-length": 120,
                 "select": "",
                 "show-code": false
+            },
+            "htmltidy": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
             },
             "jshint": {
                 "@disable": false,
