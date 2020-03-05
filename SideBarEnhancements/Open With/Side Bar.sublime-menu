@@ -1,0 +1,53 @@
+[
+    {
+        "id": "side-bar-files-open-with",
+        "children":
+        [
+            {
+                "caption": "Firefox",
+                "id": "side-bar-files-open-with-firefox",
+
+                "command": "side_bar_files_open_with",
+                "args": {
+                    "paths": [],
+                    "application": "firefox.app",
+                    "extensions":"html|htm",
+                    "args":[]
+                },
+                "open_automatically" : false // will close the view/tab and launch the application
+            },
+            {
+                "caption":"-"
+            },
+            {
+                "caption": "Microsoft Word",
+                "id": "side-bar-files-open-with-word",
+
+                "command": "side_bar_files_open_with",
+                "args": {
+                    "paths": [],
+                    "application": "Microsoft Word.app",
+                    "extensions":"doc|docx",
+                    "args":[]
+                },
+                "open_automatically" : true // will close the view/tab and launch the application
+            },
+            {
+                "caption": "Microsoft Excel",
+                "id": "side-bar-files-open-with-excel",
+
+                "command": "side_bar_files_open_with",
+                "args": {
+                    "paths": [],
+                    "application": "Microsoft Excel.app",
+                    "extensions":"xls|xlsx",
+                    "args":[]
+                },
+                "open_automatically" : true // will close the view/tab and launch the application
+            },
+            {
+                "caption":"-"
+            }
+        ]
+    }
+]
