@@ -1,7 +1,7 @@
 {
     "debug": false,
     "delay": 0.25,
-    "gutter_theme": "Packages/SublimeLinter/gutter-themes/Default.gutter-theme",
+    "gutter_theme": "Packages/SublimeLinter/gutter-themes/Circle.gutter-theme",
     "lint_mode": "background",
     "linters": {
         "annotations": {
@@ -42,7 +42,9 @@
             "ignore": [
                 "E127",
                 "E128",
-                "E501"
+                "E402",
+                "E722",
+                "W504"
             ],
             "jobs": "1",
             "max-complexity": -1,
@@ -53,7 +55,8 @@
         "htmltidy": {
             "@disable": false,
             "args": [],
-            "excludes": []
+            "excludes": [],
+            "defaults": []
         },
         "jshint": {
             "@disable": false,
@@ -70,9 +73,10 @@
             "@disable": false,
             "args": [],
             "excludes": [],
-            "ignore": "E127,E128,E129,E501",
-            "max-line-length": null,
-            "select": ""
+            "ignore": "E127,E128,E402,E722,W504",
+            "max-line-length": 120,
+            "select": "",
+            "selector": ""
         },
         "pyflakes": {
             "@disable": false,
