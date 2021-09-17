@@ -42,7 +42,8 @@
 	"ignored_packages":
 	[
 		"LineEndings",
-		"Vintage"
+		"Python PEP8 Autoformat",
+		"Vintage",
 	],
 	"rulers":
 	[
@@ -51,5 +52,5 @@
 	"scroll_past_end": false,
 	"theme": "Spacegray Light.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
 }

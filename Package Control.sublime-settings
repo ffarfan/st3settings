@@ -3,6 +3,7 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"Python PEP8 Autoformat",
 	],
 	"installed_packages":
 	[
@@ -42,5 +43,5 @@
 		"Theme - amCoder",
 		"Theme - Spacegray",
 		"TrailingSpaces"
-	]
+	],
 }

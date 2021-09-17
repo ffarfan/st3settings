@@ -7,5 +7,6 @@
     { "keys": ["super+down"], "command": "select_lines", "args": {"forward": true} },
 
     { "keys": ["super+;"], "command": "run_macro_file", "args": {"file": "Packages/User/EOL Semicolon.sublime-macro"} },
-    { "keys": ["super+,"], "command": "run_macro_file", "args": {"file": "Packages/User/EOL Comma.sublime-macro"} }
+    { "keys": ["super+,"], "command": "run_macro_file", "args": {"file": "Packages/User/EOL Comma.sublime-macro"} },
+    { "keys": ["command+j"], "command": "join_lines", "args": {} }
 ]
