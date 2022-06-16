@@ -30,20 +30,27 @@
 		".sass-cache/"
 	],
 	"bold_folder_labels": true,
-	"caret_style": "phase",
+	"caret_style": "solid",
 	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
 	"copy_with_empty_selection": false,
 	"default_line_ending": "unix",
 	"draw_minimap_border": true,
+	"draw_white_space": "selection",
 	"ensure_newline_at_eof_on_save": true,
-	"font_size": 13,
+	"fold_buttons": false,
+	"font_face": "Monaco",
+	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"HexViewer",
 		"LineEndings",
 		"Python PEP8 Autoformat",
 		"Vintage",
+	],
+	"indent_guide_options": [
+		"draw_active"
 	],
 	"rulers":
 	[
@@ -53,4 +60,5 @@
 	"theme": "Spacegray Light.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
+	"wide_caret": true,
 }

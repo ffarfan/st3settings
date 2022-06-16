@@ -19,6 +19,7 @@
 		"HexViewer",
 		"Highlight Dodgy Chars",
 		"Increment Selection",
+		"Indent XML",
 		"JSHint",
 		"JSHint Gutter",
 		"MarkdownLivePreview",
@@ -42,6 +43,6 @@
 		"Text Pastry",
 		"Theme - amCoder",
 		"Theme - Spacegray",
-		"TrailingSpaces"
+		"TrailingSpaces",
 	],
 }
