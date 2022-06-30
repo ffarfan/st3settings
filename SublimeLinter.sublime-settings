@@ -1,87 +1,23 @@
 {
     "debug": false,
     "delay": 0.25,
-    "gutter_theme": "Packages/SublimeLinter/gutter-themes/Circle.gutter-theme",
+    "gutter_theme": "Koloria",
     "lint_mode": "background",
     "linters": {
-        "annotations": {
-            "@disable": false,
-            "args": [],
-            "errors": [
-                "FIXME"
-            ],
-            "excludes": [],
-            "warnings": [
-                "TODO",
-                "README",
-                "FIXME",
-                "COMPAT"
-            ]
-        },
-        "clang": {
-            "@disable": false,
-            "args": [],
-            "excludes": [],
-            "extra_flags": "",
-            "include_dirs": []
-        },
-        "csslint": {
-            "@disable": false,
-            "args": [],
-            "errors": "",
-            "excludes": [],
-            "ignore": "",
-            "warnings": ""
-        },
         "flake8": {
-            "@disable": true,
-            "args": [],
-            "builtins": "_,N_",
+            "@disable": false,
+            "args": [
+            	"--max-line-length=120",
+                "--ignore=E127,E128,E402,E722,W504"
+            ],
+            "builtins": "",
             "excludes": [],
             "executable": "",
-            "ignore": [
-                "E127",
-                "E128",
-                "E402",
-                "E722",
-                "W504"
-            ],
+            "ignore": "",
             "jobs": "1",
             "max-complexity": -1,
-            "max-line-length": 120,
             "select": "",
-            "show-code": false
-        },
-        "htmltidy": {
-            "@disable": false,
-            "args": [],
-            "excludes": [],
-            "defaults": []
-        },
-        "jshint": {
-            "@disable": false,
-            "args": [],
-            "excludes": []
-        },
-        "json": {
-            "@disable": false,
-            "args": [],
-            "excludes": [],
-            "strict": true
-        },
-        "pep8": {
-            "@disable": false,
-            "args": [],
-            "excludes": [],
-            "ignore": "E127,E128,E402,E722,W504",
-            "max-line-length": 120,
-            "select": "",
-            "selector": ""
-        },
-        "pyflakes": {
-            "@disable": false,
-            "args": [],
-            "excludes": []
+            "show-code": true
         }
     },
     "no_column_highlights_line": false,
@@ -95,8 +31,15 @@
         "html (django)": "html",
         "html (rails)": "html",
         "html 5": "html",
-        "javascript (gjs)": "javascript",
+        "javascript (babel)": "javascript",
+        "magicpython": "python",
         "php": "html",
-        "python django": "python"
-    }
+        "python django": "python",
+        "pythonimproved": "python"
+    },
+    "styles": [
+    	{
+    		"mark_style": "squiggly_underline",
+    	}
+    ]
 }
