@@ -1,5 +1,4 @@
 // Your settings for Side Bar. See the default file to see the different options.
 {
-    "default_browser": "chrome",
-    "i_donated_to_sidebar_enhancements_developer": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DD4SL2AHYJGBW"
+    "default_browser": "firefox"
 }

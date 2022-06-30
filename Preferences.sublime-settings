@@ -1,64 +1,108 @@
 {
-	"always_show_minimap_viewport": true,
-	"binary_file_patterns":
-	[
-		"*~",
-		"*.lo",
-		"*.Po",
-		"*.Plo",
-		"*.gcda",
-		"*.gcno",
-		"ar-lib",
-		"aclocal.m4",
-		"config.guess",
-		"config.h",
-		"config.h.in",
-		"config.log",
-		"config.status",
-		"config.sub",
-		"configure",
-		"depcomp",
-		"install-sh",
-		"libtool",
-		"ltmain.sh",
-		"missing",
-		"stamp-*",
-		"autom4te.cache/",
-		"_coverage/",
-		"coverage/",
-		"node_modules/",
-		".sass-cache/"
-	],
-	"bold_folder_labels": true,
-	"caret_style": "solid",
-	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
-	"copy_with_empty_selection": false,
-	"default_line_ending": "unix",
-	"draw_minimap_border": true,
-	"draw_white_space": "selection",
-	"ensure_newline_at_eof_on_save": true,
-	"fold_buttons": false,
-	"font_face": "Monaco",
-	"font_size": 12,
-	"highlight_line": true,
-	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"HexViewer",
-		"LineEndings",
-		"Python PEP8 Autoformat",
 		"Vintage",
-	],
-	"indent_guide_options": [
-		"draw_active"
-	],
-	"rulers":
-	[
-		120
-	],
-	"scroll_past_end": false,
-	"theme": "Spacegray Light.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
-	"wide_caret": true,
+    ],
+    "highlight_modified_tabs": true,
+
+    // Caret style
+    "caret_style": "solid",
+    "wide_caret": true,
+    "highlight_line": true,
+
+    // Visible whitespace & indentation
+    "draw_white_space": "selection",
+    "indent_guide_options": [
+        "draw_active"
+    ],
+
+    // Optimized whitespace handling
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true,
+    "ensure_newline_at_eof_on_save": true,
+
+    // File & folder exclude patterns
+    "binary_file_patterns":
+    [
+        "*~",
+        "*.lo",
+        "*.Po",
+        "*.Plo",
+        "*.gcda",
+        "*.gcno",
+        "ar-lib",
+        "aclocal.m4",
+        "config.guess",
+        "config.h",
+        "config.h.in",
+        "config.log",
+        "config.status",
+        "config.sub",
+        "configure",
+        "depcomp",
+        "install-sh",
+        "libtool",
+        "ltmain.sh",
+        "missing",
+        "stamp-*",
+        "autom4te.cache/",
+        "_coverage/",
+        "coverage/",
+        "node_modules/",
+        ".sass-cache/"
+    ],
+    "file_exclude_patterns": [
+        "*.pyc",
+        "*.pyo",
+        "*.exe",
+        "*.dll",
+        "*.obj",
+        "*.o",
+        "*.a",
+        "*.lib",
+        "*.so",
+        "*.dylib",
+        "*.ncb",
+        "*.sdf",
+        "*.suo",
+        "*.pdb",
+        "*.idb",
+        ".DS_Store",
+        "*.class",
+        "*.psd",
+        "*.db",
+        "*.sublime-workspace"
+    ],
+    "folder_exclude_patterns": [
+        ".svn",
+        ".git",
+        ".hg",
+        "CVS",
+        "__pycache__"
+    ],
+
+    // Disabled editor features to reduce clutter
+    "fold_buttons": false,
+    /*"ignored_packages": [
+        "Vintage"
+    ],*/
+
+    // Font rendering
+    "font_face": "Source Code Pro",
+    "font_size": 13,
+    "font_options": [
+        "directwrite",
+        "subpixel_antialias",
+        "no_bold",
+        "no_italic"
+    ],
+    "line_padding_bottom": 0,
+    "line_padding_top": 0,
+
+    // Editor behavior
+    "shift_tab_unindent": true,
+    "theme": "Spacegray Light.sublime-theme",
+    "color_scheme": "Mariana.sublime-color-scheme",
+    "rulers": [120],
 }
