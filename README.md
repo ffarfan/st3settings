@@ -66,11 +66,12 @@ Tools -> Command Palette ... -> Package Control: Install Package -> Anaconda
 
 ## How to Use
 
- * Install [Package Control](https://packagecontrol.io/installation).
- * Clone this repo in the location indicated above, e.g.
+Clone this repository in the location indicated above, according to your operating system, e.g.
 
-   ```
-   $ cd ~/.config/sublime-text-3/Packages
+ ```
+ $ cd ~/.config/sublime-text-3/Packages
 
-   $ git clone {this-repo} User
-   ```
+ $ git clone {this-repo} User
+ ```
+
+**Note:** Notice that you want to clone the repository as `User`, so that it takes the settings to all packages as user settings.
