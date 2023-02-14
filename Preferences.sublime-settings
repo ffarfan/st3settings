@@ -82,6 +82,10 @@
         "__pycache__"
     ],
 
+    // Add handy indicators to editor's footer
+    "show_encoding": true,
+    "show_line_endings": true,
+
     // Disabled editor features to reduce clutter
     "fold_buttons": false,
     /*"ignored_packages": [
