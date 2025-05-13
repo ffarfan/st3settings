@@ -1,6 +1,6 @@
 # st3settings
 
-Personal settings for Sublime Text 3.
+Personal settings for Sublime Text ~~3~~4.
 
 Forked from [ptomato/st2settings](https://github.com/ptomato/st2settings)
 
@@ -8,10 +8,13 @@ Forked from [ptomato/st2settings](https://github.com/ptomato/st2settings)
 
 **Mac OS X:**
 ```
-~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/
+~/Library/Application\ Support/Sublime\ Text/Packages/User/
 ```
 
 **Linux:**
+
+_Note: Haven't verified the path to Sublime Text 4 on Linux._
+
 ```
 ~/.config/sublime-text-3/Packages/User
 ```
@@ -19,9 +22,9 @@ Forked from [ptomato/st2settings](https://github.com/ptomato/st2settings)
 
 ## Prerequisites
 
-### Install Sublime Text 3
+### Install Sublime Text 4
 
-You may download it [here](https://www.sublimetext.com/3).
+You may download it [here](https://www.sublimetext.com/download).
 
 
 ### Install Package Control
@@ -69,7 +72,7 @@ Tools -> Command Palette ... -> Package Control: Install Package -> Anaconda
 Clone this repository in the location indicated above, according to your operating system, e.g.
 
  ```
- $ cd ~/.config/sublime-text-3/Packages
+ $ cd ~/Library/Application Support/Sublime Text/Packages/User
 
  $ git clone {this-repo} User
  ```
